@@ -1,0 +1,16 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.buildDirectory": "${workspaceFolder}/cmake-debug/build",
+    "cmake.configureSettings": {
+        "WITH_DEBUG": "1",
+        "CMAKE_INSTALL_PREFIX": "${workspaceFolder}/cmake-debug",
+        "MYSQL_DATADIR": "${workspaceFolder}/cmake-debug/data",
+        "SYSCONFDIR": "${workspaceFolder}/cmake-debug/etc",
+        "MYSQL_TCP_PORT": "3307",
+        "MYSQL_UNIX_ADDR": "${workspaceFolder}/cmake-debug/mysql-debug.sock",
+        "WITH_BOOST": "${workspaceFolder}/boost_1_59_0",
+        "DOWNLOAD_BOOST": "0",
+        "DEFAULT_CHARSET": "utf8",
+        "DEFAULT_COLLATION": "utf8_general_ci"
+    }
+}

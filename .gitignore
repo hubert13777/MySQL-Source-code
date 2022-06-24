@@ -1,0 +1,11 @@
+# 编译目标目录
+cmake-debug
+
+# boost目录
+boost_1_59_0
+
+# 编译中临时文件
+*.o
+
+# googletest files
+source_downloads
